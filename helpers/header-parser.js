@@ -9,6 +9,6 @@ module.exports = function(req){
 	return{
 		ipaddress:ip,
 		language:language,
-		software:software
+		oeratingSystem:software
 	}
 }
