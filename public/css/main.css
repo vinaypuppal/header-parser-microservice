@@ -12,7 +12,16 @@ i.left{
 }
 
 blockquote,.card{
-	line-height: 2
+	line-height: 2;
+	border-left-color: #4a148c; 
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating){
+	color: #4a148c;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover{
+	color: #7b1fa2;
 }
 
 pre{
